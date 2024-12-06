@@ -1,0 +1,7 @@
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+UsePAM no
+AllowTcpForwarding yes
+GatewayPorts clientspecified 
+X11Forwarding yes
+

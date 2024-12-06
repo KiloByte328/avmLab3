@@ -1,0 +1,9 @@
+name: Sys_info
+hosts: all
+become: true
+
+host: servers
+  tasks:
+  template:
+   src: sysinfo.j2
+   dst: ./systems_info.json
