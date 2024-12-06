@@ -1,4 +1,4 @@
-sudo docker build cont1 .
+sudo docker build -t cont1 .
 ssh-keygen + cp -r ~/.ssh/id_rsa(2)\id_rsa.pub /keys/id_rsa(2)\id_rsa.pub x2
 sudo docker run -p 6666/7777:22 cont1
 ansible all -m ping
